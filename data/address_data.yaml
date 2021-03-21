@@ -1,0 +1,16 @@
+test_address:
+  test_address_01:
+    name: "张三"
+    phone: "188"
+    info: "五单元 202"
+    post_code: 111111
+    toast: "11位手机号"
+    assert: False
+  test_address_02:
+    name: "张三"
+    phone: "18888888888"
+    info: "五单元 202"
+    post_code: 111111
+    toast: Null
+    assert: True
+

@@ -1,0 +1,13 @@
+test_login:
+  test_login_01:
+    account: "itheima_test"
+    password: "123"
+    assert_account: False
+  test_login_02:
+    account: "itheima_test1"
+    password: "itheima"
+    assert_account: False
+  test_login_03:
+    account: "itheima_test"
+    password: "itheima"
+    assert_account: True
